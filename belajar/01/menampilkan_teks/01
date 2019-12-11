@@ -1,0 +1,15 @@
+Setiap file program harus memilih package. Setiap projek harus ada minimal satu file dengan namapackage main. File yang ber-package main akan dieksekusi pertama kali ketika program dijalankan.
+contoh:
+package <nama-package>
+package main
+
+==============
+
+Keyword import digunakan unttuk meng-include dan memasukan package lain ke dalam file program agar isi package yang di-include bisa dimanfaatkan.
+package fmt merupakan salah satu package yang disediakan oleh GO yang berhubungan dgn text
+skema penulisan import
+impot "<nama-package>"
+import "fmt"
+
+================
+
